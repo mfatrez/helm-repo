@@ -3,6 +3,16 @@ entries:
   demo1-customer:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-06-05T10:16:48.193270189Z"
+    description: A Helm chart for Kubernetes
+    digest: 1f580b6f840d763742b19e664274a43b91f4997484db9959b6f97db0094c61c2
+    name: demo1-customer
+    type: application
+    urls:
+    - https://github.com/mfatrez/helm-repo/releases/download/demo1-customer-0.1.2/demo1-customer-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-06-05T09:40:25.958983825Z"
     description: A Helm chart for Kubernetes
     digest: 682e64e0aca1b5ca7807701dbe6e52abea6f0562fa212cc819a5c3e85442e70f
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/mfatrez/helm-repo/releases/download/demo1-customer-0.1.1/demo1-customer-0.1.1.tgz
     version: 0.1.1
-generated: "2023-06-05T09:40:25.958987725Z"
+generated: "2023-06-05T10:16:48.193278489Z"
