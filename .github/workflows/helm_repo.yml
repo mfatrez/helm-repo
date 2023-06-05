@@ -10,7 +10,7 @@ on:
 jobs:
   release:
     permissions:
-      contents: write-all
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
