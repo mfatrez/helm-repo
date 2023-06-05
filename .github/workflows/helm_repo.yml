@@ -33,6 +33,10 @@ jobs:
             helm dependency list $dir 2> /dev/null | tail +2 | head -n -1 | awk '{ print "helm repo add " $1 " " $3 }' | while read cmd; do $cmd; done
           done
 
+      - name: Generate chart
+        run: |
+          make helm.generate
+
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.5.0
         env:
