@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'charts/demo1-customer/Chart.yaml'
 
 jobs:
   release:
