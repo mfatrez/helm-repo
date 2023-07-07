@@ -61,4 +61,15 @@ entries:
     urls:
     - https://github.com/mfatrez/helm-repo/releases/download/demo1-customer-0.1.1/demo1-customer-0.1.1.tgz
     version: 0.1.1
-generated: "2023-06-07T09:29:36.761180345Z"
+  hass:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-07-07T21:31:14.52820082Z"
+    description: A Helm chart for Kubernetes
+    digest: c8fa126b8cd246340d12e9d97725170786bcb2e4cd777ed5159526b50c013cf6
+    name: hass
+    type: application
+    urls:
+    - https://github.com/mfatrez/helm-repo/releases/download/hass-0.1.1/hass-0.1.1.tgz
+    version: 0.1.1
+generated: "2023-07-07T21:31:14.52821682Z"
