@@ -64,6 +64,16 @@ entries:
   hass:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2023-07-17T14:27:10.058453271Z"
+    description: A Helm chart for Kubernetes
+    digest: aae4d5ba080be9ae399907aae8a46d9eea1b25e0968fd289436f762378226b09
+    name: hass
+    type: application
+    urls:
+    - https://github.com/mfatrez/helm-repo/releases/download/hass-0.1.2/hass-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2023-07-07T21:31:14.52820082Z"
     description: A Helm chart for Kubernetes
     digest: c8fa126b8cd246340d12e9d97725170786bcb2e4cd777ed5159526b50c013cf6
@@ -72,4 +82,4 @@ entries:
     urls:
     - https://github.com/mfatrez/helm-repo/releases/download/hass-0.1.1/hass-0.1.1.tgz
     version: 0.1.1
-generated: "2023-07-07T21:31:14.52821682Z"
+generated: "2023-07-17T14:27:10.058474772Z"
