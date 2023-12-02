@@ -82,4 +82,14 @@ entries:
     urls:
     - https://github.com/mfatrez/helm-repo/releases/download/hass-0.1.1/hass-0.1.1.tgz
     version: 0.1.1
-generated: "2023-07-17T14:27:10.058474772Z"
+  podtato-head:
+  - apiVersion: v2
+    appVersion: 0.2.7
+    created: "2023-12-02T14:38:41.648610363Z"
+    description: Deploys the podtato-head app
+    digest: fe1ce599ac891415ec040e6767ecab5929a34a9694e41ebed2069eb8cd3e77ba
+    name: podtato-head
+    urls:
+    - https://github.com/mfatrez/helm-repo/releases/download/podtato-head-0.2.7/podtato-head-0.2.7.tgz
+    version: 0.2.7
+generated: "2023-12-02T14:38:41.648668981Z"
