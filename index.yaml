@@ -92,4 +92,20 @@ entries:
     urls:
     - https://github.com/mfatrez/helm-repo/releases/download/podtato-head-0.2.7/podtato-head-0.2.7.tgz
     version: 0.2.7
-generated: "2023-12-02T14:38:41.648668981Z"
+  spegel:
+  - annotations:
+      artifacthub.io/category: integration-delivery
+      artifacthub.io/license: MIT
+      artifacthub.io/operator: "false"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: v0.0.1
+    created: "2024-07-10T09:58:23.582096588Z"
+    description: Stateless cluster local OCI registry mirror.
+    digest: f2e82df93967a2cc44a678c22602454656eedd2a2fae889ae9795134e03e056f
+    name: spegel
+    type: application
+    urls:
+    - https://github.com/mfatrez/helm-repo/releases/download/spegel-v0.0.1/spegel-v0.0.1.tgz
+    version: v0.0.1
+generated: "2024-07-10T09:58:23.582169146Z"
